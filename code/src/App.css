@@ -1,0 +1,46 @@
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+.user-list {
+  margin-top: 20px;
+}
+
+.user-card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 10px auto;
+  width: 300px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.user-card h3 {
+  color: #0077cc;
+  margin-bottom: 5px;
+}
+
+.user-card p {
+  margin: 4px 0;
+  color: #555;
+}
+
+.loading {
+  color: #ffa500;
+  font-size: 18px;
+}
+
+.error {
+  color: red;
+  font-size: 18px;
+  font-weight: bold;
+}
